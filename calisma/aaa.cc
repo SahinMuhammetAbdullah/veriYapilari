@@ -10,6 +10,7 @@ struct dugum
     char mail[40];
     struct dugum * sonra;
     struct dugum * once;
+    
 
 };
 typedef struct dugum rehber;
