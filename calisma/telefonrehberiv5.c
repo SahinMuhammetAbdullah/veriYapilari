@@ -19,6 +19,7 @@ rehber *ac = NULL;
 rehber kisiEkle(char [40], char [40], char [10], char [40]);
 void ismeGoreAra(rehber *, char [40]);
 void soyismeGoreAra(rehber *, char [40]);
+void listele(rehber *);
 void batanSil();
 void sondanSil();
 
@@ -80,6 +81,7 @@ int main()
                 kisi2 -> once = kisi1;
                 kisi3 -> once = kisi2;
                 kisi4 -> once = kisi3;
+                listele(kisi1);
             case 2:
                 /* Kisileri isimlerine gore bulacak blok */
                 char a[40];

@@ -1,2 +1,1 @@
-
-        switch (secim)
+system("cls");
